@@ -1,0 +1,28 @@
+.header{
+    text-align: center;
+    background-color: white;
+}
+
+.header-button{
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+}
+
+.header-button:hover{
+    color: gray;
+}
+
+.hd-button:hover{
+    color: grey;
+}
+
+.header-right{
+    position: absolute; 
+    right: 20px;
+    top: 30px;
+}
+
+.super-header{
+    
+}
+

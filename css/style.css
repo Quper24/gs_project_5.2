@@ -1,4 +1,4 @@
-@import "reboot";
-@import "container";
-@import "header";
-@import "footer";
+@import "reboot.css";
+@import "container.css";
+@import "header.css";
+@import "footer.css";

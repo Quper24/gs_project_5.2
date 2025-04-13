@@ -15,22 +15,22 @@
       <div class="header">
         <div class="header-button">
           <div class="hd-button">
-            <img src="img/Ноутбуки.png" alt="">
+            <p class="product-card2">Ноутбуки</p>
           </div>
         </div>
         <div class="header-button">
           <div class="hd-button">
-            <img src="img/Смартфоны.png" alt="">
+            <p class="product-card2">Смартфоны</p>
           </div>
         </div>
         <div class="header-button">
           <div class="hd-button">
-            <img src="img/Часы.png" alt="">
+            <p class="product-card2">Часы</p>
           </div>
         </div>
         <div class="header-button">
           <div class="hd-button">
-            <img src="img/Аксесуары.png" alt="">
+            <p class="product-card2">Акксесуары</p>
           </div>
           <div class="header-right">
             <img src="img/IMAGE.png" alt="">
@@ -40,18 +40,145 @@
       </div>
     </div>
     
-    <div class="Iphone13PM">
-      <button class="block-header" onclick="alert('Недостаточно средств на карте')">
-        <img src="img/Frame.png" alt="">
-      </button>
-      
-    </div>
+    
   </header>
 
   <main>
+    
+    <div class="Iphone13PM">
+      <img classs="Iphone13PM" src="img/Frame.png" alt="">
+      <img src="img/Group 1321316229.png" alt="">
+      <img src="img/Group 1321316230.png" alt="">
+      <button class="block-header" onclick="alert('Недостаточно средств на карте')">
+        <img rc="img/Light.png" alt="">
+      </button>
+    </div>
+    <h1 class="product-card2">Популярные товары</h1>
+    <style>
+      .catalog {
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+      }
 
-  </main>
-.
+      .category {
+          padding: 10px 20px;
+          border: 1px solid black;
+          border-radius: 20px;
+          cursor: pointer;
+      }
+
+      .popular-products {
+          display: flex;
+          justify-content: space-between;
+          padding: 20px;
+      }
+
+      .product {
+          flex: 0 1 220px;
+          text-align: center;
+          border: 1px solid #ddd;
+          border-radius: 10px;
+          padding: 10px;
+      }
+
+      .product img {
+          width: 100%;
+          height: auto;
+      }
+
+      .buy-button {
+          padding: 5px 20px;
+          background: black;
+          color: white;
+          border: none;
+          cursor: pointer;
+          border-radius: 5px;
+      }
+      .product-card {
+          width: 200px;
+          padding: 15px;
+          border-radius: 10px;
+          background-color: #f7f4eb;
+          text-align: center;
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+          font-family: Arial, sans-serif;
+      }
+      .product-card2{
+        font-family: Arial, sans-serif;
+      }
+      .product-card img {
+          width: 100px;
+          height: auto;
+          margin: 10px 0;
+      }
+      .product-card .title {
+          font-size: 16px;
+          font-weight: bold;
+          margin: 10px 0;
+      }
+      .product-card .price {
+          display: flex;
+          justify-content: space-between;
+          margin: 10px 0;
+      }
+      .product-card .buy-button {
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #2c2c2c;
+          color: #ffffff;
+          border-radius: 5px;
+          text-decoration: none;
+          font-weight: bold;
+      }
+      
+  </style>
+</head>
+<body>
+<div class="main-rovno">
+  <div class="bit" class="product-card">
+    <div class="title">Смартфон realme C25S 4</div>
+    <img src="img/image 2.png" alt="realme C25S">
+    <div class="price">
+        <span>Цена</span>
+        <span>12 490 ₽</span>
+    </div>
+    <a href="#" class="buy-button">Купить</a>
+  </div>
+
+  <div class="bit" class="product-card">
+    <div class="title">Умные часы Apple Watch Series 7</div>
+    <img src="img/image 2 (1).png" alt="realme C25S">
+    <div class="price">
+        <span>Цена</span>
+        <span>40 490 ₽</span>
+    </div>
+    <a href="#" class="buy-button">Купить</a>
+  </div>
+
+  <div class="bit" class="product-card">
+    <div class="title">Ноутбук Honor Magicbook X 15 BBR-WAH9</div>
+    <img src="img/image 2 (2).png" alt=" Honor Magicbook X 15 BBR-WAH9">
+    <div class="price">
+        <span>Цена</span>
+        <span>50 820 ₽</span>
+    </div>
+    <a href="#" class="buy-button">Купить</a>
+  </div>
+  <div class="bit" class="product-card">
+    <div class="title">Apple EarPods</div>
+    <img src="img/image 2 (3).png" alt=" Apple EarPods">
+    <div class="price">
+        <span>Цена</span>
+        <span>19 990 ₽</span>
+    </div>
+    <a href="#" class="buy-button">Купить</a>
+  </div>
+</div>
+<h1 class="product-card2">Каталог
+</h1>
+    </main>
+
   <footer>
 
   </footer>

@@ -8,21 +8,36 @@
     margin: 20px 20px 20px 20px;
 }
 
+
+
 .header-button:hover{
     color: gray;
+    cursor: pointer;
 }
-
 .hd-button:hover{
     color: grey;
 }
+
 
 .header-right{
     position: absolute; 
     right: 20px;
     top: 30px;
 }
-
-.super-header{
-    
+.block-header{
+    position: absolute; 
+    left: 90px;
+    top: 540px;
 }
-
+.Iphone13PM{
+    margin: 50px 50px 50px 50px;
+}
+.main-rovno{
+    display: block;
+}
+.bit {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: .25rem;
+}
